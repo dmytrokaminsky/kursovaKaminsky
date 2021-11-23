@@ -25,6 +25,8 @@ const SortComponent = (props) => {
             <div className="col-4 col-sm-3 col-lg-2 col-xl-1">
                 <div className="d-grid d-block"><Button variant={"secondary"}
                                                         onClick={e => sortingItems("DESC")}>DESC</Button></div>
+
+                                                        
             </div>
         </div>
     );
